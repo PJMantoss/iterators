@@ -16,4 +16,19 @@ Ex 2. Write a function called addKeyAndValue which accepts three parameters, an 
  a key and a value. This function should return the array of objects after each key and value have 
  been added to each object in the array.
 */
-function addKeyAndValue(arr, key, value){}
+function addKeyAndValue(arr, key, value){
+
+    let newArr = [];
+
+    newArr.push(
+        arr = ({
+            name: "",
+            key: key, 
+            value: value
+        })
+    );
+
+    console.log(newArr);
+}
+
+addKeyAndValue([{name: 'Elie'},{name: 'Tim'},{name: 'Elie'}], "isInstructor", true);
