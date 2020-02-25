@@ -10,3 +10,9 @@ function printFirstAndLast(arr){
 
 //test
 printFirstAndLast(['awesome','example','of','forEach']); // ae, ee, of, fh
+
+/*
+Ex 2. Write a function called addKeyAndValue which accepts three parameters, an array (of objects),
+ a key and a value. This function should return the array of objects after each key and value have 
+ been added to each object in the array.
+*/
