@@ -39,7 +39,9 @@ Ex 3. Write a function called valTimesIndex which accepts an array of numbers an
 returns a new array with each value multiplied by the index it is at in the array:
 */
 function valTimesIndex(arr){
-    arr.map(function(val, idx){
+    return arr.map(function(val, idx){
         return val * idx;
     })
 }
+//test
+valTimesIndex([1,2,3]);
