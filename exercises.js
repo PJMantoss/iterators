@@ -90,3 +90,6 @@ function filterKey(arr, key){
         };
     })
 }
+//test
+filterKey([{name: "Elie", isInstructor:true, isHilarious: false},{name: "Tim", isInstructor:true, isHilarious: true},{name: "Matt", isInstructor:true}], "isHilarious")
+// [{name: "Tim", isInstructor:true, isHilarious:true}]
