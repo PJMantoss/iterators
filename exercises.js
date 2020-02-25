@@ -38,3 +38,8 @@ addKeyAndValue([{name: 'Elie'},{name: 'Tim'},{name: 'Elie'}], "isInstructor", tr
 Ex 3. Write a function called valTimesIndex which accepts an array of numbers and
 returns a new array with each value multiplied by the index it is at in the array:
 */
+function valTimesIndex(arr){
+    arr.map(function(val, idx){
+        return val * idx;
+    })
+}
