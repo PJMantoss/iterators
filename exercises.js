@@ -78,3 +78,8 @@ function filterLetters(arr, letter){
 }
 //test
 filterLetters(["a","a","b","c","A"], "a"); // 3
+
+/*Ex 6.
+Write a function called filterKey which accepts two parameters, an array of objects, 
+and the name of a key and returns an array with only those objects which have truthy values for that key:
+*/
