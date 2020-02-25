@@ -17,18 +17,12 @@ Ex 2. Write a function called addKeyAndValue which accepts three parameters, an 
  been added to each object in the array.
 */
 function addKeyAndValue(arr, key, value){
+    
+    arr.forEach(function(val, idx, array){
+            val[key] = value;
+            console.log(val);
+    })
 
-    let newArr = [];
-
-    newArr.push(
-        arr = ({
-            name: "",
-            key: key, 
-            value: value
-        })
-    );
-
-    console.log(newArr);
 }
 //test
 addKeyAndValue([{name: 'Elie'},{name: 'Tim'},{name: 'Elie'}], "isInstructor", true);
