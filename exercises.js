@@ -76,3 +76,5 @@ function filterLetters(arr, letter){
     })
     return count;
 }
+//test
+filterLetters(["a","a","b","c","A"], "a"); // 3
