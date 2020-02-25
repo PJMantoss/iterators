@@ -45,3 +45,10 @@ function valTimesIndex(arr){
 }
 //test
 valTimesIndex([1,2,3]);
+
+/*
+Ex. 4
+Write a function called extractKey which accepts two parameters, 
+an array of objects, and the name of a key and returns an array 
+with just the values for that key:
+*/
