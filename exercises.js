@@ -150,3 +150,19 @@ function addKeyAndValue(arr, key, value){
 }
 //test
 addKeyAndValue([{name: 'Elie'},{name: 'Tim'},{name: 'Elie'}], "isInstructor", true);
+/*
+[
+    {
+        name: 'Elie',
+        isInstructor: true
+    },
+    {
+        name: 'Tim',
+        isInstructor: true
+    },
+    {
+        name: 'Elie',
+        isInstructor: true
+    }
+]
+*/
