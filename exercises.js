@@ -166,18 +166,3 @@ addKeyAndValue([{name: 'Elie'},{name: 'Tim'},{name: 'Elie'}], "isInstructor", tr
     }
 ]
 */
-
-function vowelCount(str){
-    let newArr = str.split('').filter(function(letter){
-        return ["a","e","i","o","u"].includes(letter);
-    });
-
-    return newArr.reduce(function(a,v){
-        if(a[v] !== undefined){
-            a[v]++;
-        } else {
-            a[v] = 1;
-        }
-        return a;
-    }, {})
-}
