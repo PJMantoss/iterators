@@ -104,6 +104,6 @@ and the name of a key and returns an array with just the values for that key:
 function extractKey(arr, key){
      return arr.reduce(function(acc,obj){
 
-        return [acc + obj[key]];
+         return acc.concat(obj[key]);
     }, [])
 }
