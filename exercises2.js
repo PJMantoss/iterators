@@ -165,3 +165,5 @@ function hasFavoriteEditor(editor){
 
 //test
 hasFavoriteEditor('VS Code'); // true
+
+//Q6. Write a function called findByUsername which takes in a string and returns an object in the users array that has that username
