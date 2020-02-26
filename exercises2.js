@@ -88,3 +88,11 @@ function printEmails(){
 // david@test.com
 
 //Q2. Write a function called printHobbies which console.log's each hobby for each user.
+
+function printHobbies(){
+    users.forEach(function(obj){
+        obj.hobbies.forEach(function(hobby){
+            console.log(hobby);
+        })
+    })
+}
