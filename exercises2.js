@@ -114,3 +114,5 @@ printHobbies();
 // "Volunteering",
 // "Biking",
 // "Coding",
+
+//Q3. Write a function called findHometownByState which returns the first user which has a hometown of the state that is passed in
