@@ -101,3 +101,9 @@ Ex. 1 Write a function called
 extractKey which accepts two parameters, an array of objects, 
 and the name of a key and returns an array with just the values for that key:
 */
+function extractKey(arr, key){
+     return arr.reduce(function(acc,obj){
+
+        return [acc + obj[key]];
+    }, [])
+}
