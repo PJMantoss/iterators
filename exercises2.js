@@ -172,3 +172,20 @@ function findByUsername(stringData){
         return val.username === stringData;
     })
 }
+
+//test
+findByUsername('david');
+/*/
+{
+    username: "david",
+    email: "david@test.com",
+    years_experience: 12.5,
+    favorite_languages: ["JavaScript", "C#", "Swift"],
+    favorite_editor: "VS Code",
+    hobbies: ["Volunteering", "Biking", "Coding"],
+    hometown: {
+        city: "Los Angeles",
+        state: "CA"
+    }
+}
+/*/
