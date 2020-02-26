@@ -175,7 +175,7 @@ function findByUsername(stringData){
 
 //test
 findByUsername('david');
-/*/
+/*
 {
     username: "david",
     email: "david@test.com",
@@ -188,4 +188,10 @@ findByUsername('david');
         state: "CA"
     }
 }
-/*/
+*/
+
+//Part 2
+/*Q1.
+Write a function called vowelCount that accepts a string and returns an object with each key being the vowel and
+the value being the number of times the vowel occurs in the string (the order of keys in the object does not matter).
+*/
