@@ -116,4 +116,8 @@ Ex 2. Write a function called filterLetters which accepts an array of letters an
 returns the number of occurrences of a specific letter. This function should be case insensitive
 */
 function filterLetters(arr, letter){
+    let count = 0;
+    let newArr = arr.map(function(val){
+        return val.toLowerCase()
+    });
 }
