@@ -221,3 +221,9 @@ Write a function called removeVowels that accepts a string and returns
 an array of each character that is not a vowel (y should not 
 count as a vowel for this function).
 */
+function removeVowels(str){
+    return str.split('').filter(function(letter){
+        return !["a","e","i","o","u"].includes(letter);
+    });
+}
+
