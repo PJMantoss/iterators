@@ -62,3 +62,6 @@ var users = [
       }
     }
   ];
+
+//Q1. Write a function called printEmails which console.log's each email for the users.
+  function printEmails(){}
