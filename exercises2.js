@@ -70,6 +70,15 @@ var users = [
           console.log(emailAdd);
       }
   }
+
+//OR
+
+function printEmails(){
+      users.forEach(function(obj){
+          console.log(obj.email)
+      })
+  }
+
  //test
   printEmails();
   // larry@foo.com
