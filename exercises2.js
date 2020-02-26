@@ -151,3 +151,7 @@ function allLanguages(){
         return accu;
     }, []).sort();
 }
+
+//test
+allLanguages();
+// ["Perl", "Scala", "C++","Haskell", "PHP","JavaScript","Ruby", "Python", "Go","C#", "F#", "Swift"]
