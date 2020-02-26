@@ -162,3 +162,6 @@ function hasFavoriteEditor(editor){
         return val.favoriteEditor === editor;
     })
 }
+
+//test
+hasFavoriteEditor('VS Code'); // true
