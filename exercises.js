@@ -107,3 +107,6 @@ function extractKey(arr, key){
          return acc.concat(obj[key]);
     }, [])
 }
+//test
+extractKey([{name: "Elie", isInstructor:true},{name: "Tim", isInstructor:true},{name: "Matt", isInstructor:true}], "name");
+// ["Elie", "Tim", "Matt"]
