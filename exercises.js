@@ -93,3 +93,11 @@ function filterKey(arr, key){
 //test
 filterKey([{name: "Elie", isInstructor:true, isHilarious: false},{name: "Tim", isInstructor:true, isHilarious: true},{name: "Matt", isInstructor:true}], "isHilarious")
 // [{name: "Tim", isInstructor:true, isHilarious:true}]
+
+
+//REDUCE
+/*
+Ex. 1 Write a function called
+extractKey which accepts two parameters, an array of objects, 
+and the name of a key and returns an array with just the values for that key:
+*/
