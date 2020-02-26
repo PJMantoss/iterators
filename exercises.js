@@ -110,3 +110,8 @@ function extractKey(arr, key){
 //test
 extractKey([{name: "Elie", isInstructor:true},{name: "Tim", isInstructor:true},{name: "Matt", isInstructor:true}], "name");
 // ["Elie", "Tim", "Matt"]
+
+/*
+Ex 2. Write a function called filterLetters which accepts an array of letters and
+returns the number of occurrences of a specific letter. This function should be case insensitive
+*/
