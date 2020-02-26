@@ -96,3 +96,21 @@ function printHobbies(){
         })
     })
 }
+
+
+printHobbies();
+// "Fishing",
+// "Sailing",
+// "Hiking",
+// "Swimming",
+// "Biking",
+// "Hiking",
+// "Golf",
+// "Cooking",
+// "Archery",
+// "Tennis",
+// "Biking",
+// "Archery",
+// "Volunteering",
+// "Biking",
+// "Coding",
