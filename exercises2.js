@@ -155,3 +155,5 @@ function allLanguages(){
 //test
 allLanguages();
 // ["Perl", "Scala", "C++","Haskell", "PHP","JavaScript","Ruby", "Python", "Go","C#", "F#", "Swift"]
+
+//Q5. Write a function called hasFavoriteEditor which returns a boolean if any of the users have the editor passed in
