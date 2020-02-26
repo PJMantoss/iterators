@@ -70,3 +70,10 @@ var users = [
           console.log(emailAdd);
       }
   }
+ //test
+  printEmails();
+  // larry@foo.com
+// jane@test.com
+// sam@test.com
+// anne@test.com
+// david@test.com
