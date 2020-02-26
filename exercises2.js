@@ -86,3 +86,5 @@ function printEmails(){
 // sam@test.com
 // anne@test.com
 // david@test.com
+
+//Q2. Write a function called printHobbies which console.log's each hobby for each user.
