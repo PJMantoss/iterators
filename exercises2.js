@@ -122,3 +122,20 @@ function findHometownByState(state){
              return users;
     })
 }
+
+//test
+findHometownByState('CA');
+/*/
+{
+    username: "larry",
+    email: "larry@foo.com",
+    years_experience: 22.1,
+    favorite_languages: ["Perl", "Scala", "C++"],
+    favorite_editor: "Vim",
+    hobbies: ["Fishing", "Sailing", "Hiking"],
+    hometown: {
+        city: "San Francisco",
+        state: "CA"
+    }
+}
+/*/
