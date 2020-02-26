@@ -214,3 +214,10 @@ vowelCount('incredible');
 // {i:2, e: 2}
 vowelCount('awesome');
 // {a:1, e:2, o:1}
+
+
+/*Q2
+Write a function called removeVowels that accepts a string and returns 
+an array of each character that is not a vowel (y should not 
+count as a vowel for this function).
+*/
