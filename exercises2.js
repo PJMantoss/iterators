@@ -227,3 +227,7 @@ function removeVowels(str){
     });
 }
 
+//test
+removeVowels('amazing'); // ["m","z","n","g"]
+
+removeVowels('mantoss'); //["m", "n", "t", "s", "s"]
