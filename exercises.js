@@ -120,4 +120,14 @@ function filterLetters(arr, letter){
     let newArr = arr.map(function(val){
         return val.toLowerCase()
     });
+    
+    newLetter = letter.toLowerCase();
+
+     newArr.reduce(function(acc,val){
+        if(val === letter){
+        return acc + count++;
+        }
+    }, "")
+    
+    return count;
 }
