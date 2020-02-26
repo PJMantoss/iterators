@@ -116,3 +116,9 @@ printHobbies();
 // "Coding",
 
 //Q3. Write a function called findHometownByState which returns the first user which has a hometown of the state that is passed in
+function findHometownByState(state){
+    return users.find(function(v){
+             v === state;
+             return users;
+    })
+}
