@@ -139,3 +139,5 @@ findHometownByState('CA');
     }
 }
 /*/
+
+//Q4. Write a function called allLanguages which returns an array of all of the unique values
