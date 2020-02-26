@@ -115,3 +115,5 @@ extractKey([{name: "Elie", isInstructor:true},{name: "Tim", isInstructor:true},{
 Ex 2. Write a function called filterLetters which accepts an array of letters and
 returns the number of occurrences of a specific letter. This function should be case insensitive
 */
+function filterLetters(arr, letter){
+}
