@@ -209,3 +209,8 @@ function vowelCount(str){
         return a;
     }, {})
 }
+//test
+vowelCount('incredible');
+// {i:2, e: 2}
+vowelCount('awesome');
+// {a:1, e:2, o:1}
